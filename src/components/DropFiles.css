@@ -1,0 +1,51 @@
+.drop-area {
+    width: 90%;
+    height: 210px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    border: solid rgb(189, 189, 189) 1px;
+}
+
+@media screen and (min-width: 630px) {
+    .drop-area {
+        width: 80%;
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .drop-area {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .drop-area {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 910px) {
+    .drop-area {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .drop-area {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .drop-area {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .drop-area {
+        width: 45%;
+    }
+}
