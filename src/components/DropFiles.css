@@ -1,10 +1,84 @@
 .drop-area {
     width: 90%;
-    height: 210px;
+    height: 250px;
     margin: auto;
     border-radius: 5px;
     background-color: white;
-    border: solid rgb(189, 189, 189) 1px;
+    border: solid rgb(219, 219, 219) 1px;
+}
+
+.file-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.text {
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 170px;
+    height: 60px;
+    border: none;
+    /* border: solid black 1px; */
+    border-radius: 5px;
+    background-color: rgb(38, 89, 228);
+    padding-top: 20px;
+    
+    cursor: pointer;
+}
+
+input {
+    position: relative;
+    top: -80px;
+    width: 170px;
+    height: 70px;
+    border: none;
+    /* z-index: -1; */
+    opacity: 0;
+    border-radius: 5px;
+    background-color: rgb(38, 89, 228);
+    padding-top: 20px;
+    cursor: pointer;
+} 
+
+/* input {
+    position: relative;
+} */
+
+.text b {
+    position: relative;
+    background-color: rgb(38, 89, 228);
+    color: white;
+    font-size: 15px;
+}
+
+.text p {
+    margin-top: 5px;
+    background-color: rgb(38, 89, 228);
+    color: rgb(199, 199, 199);
+}
+
+.italic {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+    background-color: white;
+    position: relative;
+    top: -40px;
+}
+
+@media screen and (min-width: 410px) {
+    .text, input {
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 630px) {
